@@ -12,7 +12,7 @@ font-style: normal;
 .header{
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: auto;
    
 }
 /* gradient-section */
@@ -25,7 +25,6 @@ font-style: normal;
      background: linear-gradient(to right, rgba(236, 115, 2, 0.911), rgba(236, 115, 2, 0.01)), url("../images/watch.png")center center;
      border: #F8F8F8;
      border-radius: 5px;
-     
      background-repeat: no-repeat;
 }
 .gradient{
@@ -62,6 +61,7 @@ color: #FFFFFF;
     padding: 14px 28px;
     border-radius: 5px;
     background: #FD6E0A;
+    margin-right: 100px;
 }
 .bg-size{
     padding-bottom: 160px;
@@ -95,8 +95,11 @@ nav ul{
 font-weight: 700;
 font-size: 50px;
 text-align:right;
-padding-left: 600px;
-padding-top: 200px;
+/* padding-left: 600px;
+padding-top: 200px; */
+margin-left: 650px;
+margin-top: 200px;
+margin-right: 100px;
 margin-bottom: 30px;
 
 
@@ -108,7 +111,10 @@ margin-bottom: 30px;
     font-size: 16px;
     text-align: right;
      margin-bottom: 30px;
-    padding-left: 477px;
+    /* padding-left: 477px; */
+    margin-right: 100px;
+    margin-left: 630px;
+    /* margin-left: 300px; */
     
 }
 /* Failor Section */
