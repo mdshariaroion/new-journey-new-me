@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+font-style: normal;
+    
+}
+.edit{
+    padding: 0%;
+}
+
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+   
+}
+/* gradient-section */
+.gradient-section{
+    
+    padding: 100px 40px;
+    place-items: center;
+    place-content: center; 
+     background:url('../images/watch.png') center center ;  
+     background: linear-gradient(to right, rgba(236, 115, 2, 0.911), rgba(236, 115, 2, 0.01)), url("../images/watch.png")center center;
+     border: #F8F8F8;
+     border-radius: 5px;
+     
+     background-repeat: no-repeat;
+    
+
+     
+
+    /* background: linear-gradient(rgba(238, 137, 43, 0.8), rgba(190, 142, 78, 0.8)), url("../images/watch.png"); 
+    background: linear-gradient(rgba(238, 137, 43, 0.8), rgba(190, 142, 78, 0.8)), url("../images/watch.png"); 
+     background-size: contain;
+     background-repeat: no-repeat; */
+     /* background-image: url('../images/gradient2.png'); */
+    /* background-position: center; */ 
+    /* height: 100px;
+        background:  linear-gradient(135deg, lightgreen 0, lightblue 100%),url("../images/watch.png") no-repeat center;
+        background-size: contain; */
+}
+.gradient{
+    /* background-image: url('../images/gradient2.png'); */
+/*     
+    padding-top:100px;
+    padding-bottom: 100px; */
+     padding: 120px 106px; 
+     border: #F8F8F8;
+     border-radius: 5px;
+     
+}
+.grad-title{
+    font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+}
+.btn-new{
+   
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border:0px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #FD6E0A;
+
+}
+
+/* Button */
+.btn-primary{
+    color: #FFFFFF;
+    height: 55px;
+    font-weight: 700;
+    font-size: 20px;
+    border:0px;
+    padding: 14px 28px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.bg-size{
+    padding-bottom: 160px;
+}
+
+/* Header and Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+   align-items: center;
+}
+/* Banner Title */
+.banner{
+    display: flex;
+    align-items:flex-end;
+    margin: 0 200px;
+    text-align: right;
+}
+.banner-title{
+    
+font-weight: 700;
+font-size: 50px;
+text-align:right;
+padding-left: 600px;
+padding-top: 200px;
+
+}
+
+.banner-discription{
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    margin: 30px;
+    padding-left: 477px;
+}
+/* Failor Section */
+.failures{
+    display: flex;
+    gap: 60px;
+}
+.person-img-position{
+    padding-top: 300px;
+    padding-left: 190px;
+}
+.failures-description{
+    padding-top: 500px;
+   
+
+}
+.failures-title{
+    font-weight: 700;
+font-size: 40px;
+padding-right: 140px;
+
+}
+.failures-about{
+    padding-top: 24px;
+    padding-right: 200px;
+    color: #444343;
+}
+.user-list{
+    padding-top: 24px;
+    list-style: none;
+    color: #444343;
+}
+/* My Plan */
+.section-plan{
+    margin-top: 130px; 
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+ }
+ .plan-container{
+    display: flex;
+    gap: 30px;
+    padding-left:220px;
+}
+.plan{
+padding: 30px;
+text-align: center;
+
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.plan-description{
+    color: #737272;
+}
+
+/* footer Styles */
+.footer{
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    padding: 120px 180px;
+    padding-top: 80px;
+    color: #F8F8F8;
+    
+}
+.footer .section-title{
+    text-align: left;
+    font-size: 30px;
+}
+.footer input[type="text"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 10px 20px;
+    /* background-color: #151414; */
+    color: #F8F8F8;
+}
+
+input{
+    height:30px;
+    
+}
+.footer-title{
+ font-size: 40px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-description{
+padding-top: 20px;
+font-weight: 300;
+font-size: 16px;
+color: #FFFFFF;
+padding-right: 40px;
+}
+.new-descrip{
+    padding-top: 20px;
+    font-weight: 300;
+}
+.icon-info{
+    padding-top: 20px;
+
+}
+.btn-primary-new{
+    background-color: #FFFFFF;
+    height: 55px;
+    font-weight: 600;
+    font-size: 20px;
+    border:0px;
+    padding: 12px 26px;
+    border-radius: 5px;
+    color: #FD6E0A;
+
+}
+.sub-title{
+    font-weight: 600;
+font-size: 25px;
+padding-bottom: 30px;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #eed95fad;
+}
+
+footer h2{
+font-weight: 400;
+font-size: 36px;
+color: #271414;
+font-weight: bold;
+}
+
+/* Bonus Section */
+.body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgb(240, 193, 245);
+    font-family: 'Work Sans';
+  }
+  .registation-form {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: rgb(226, 171, 171);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Work Sans';
+  }
+  .registration-title{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+  }
+  .registation-form .form {
+    margin-top: 30px;
+  }
+  .form .input-box {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+.input-box label {
+    color: #333;
+  }
+  
+.form :where(.input-box input) {
+    position: relative;
+    height: 50px;
+    width: 95%;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+  }
+  
+.input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .form button {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    background: rgb(130, 106, 251);
+  }
