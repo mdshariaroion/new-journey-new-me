@@ -154,12 +154,15 @@ padding-right: 140px;
     color: #151414;
     font-weight: 700;
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
  }
  .plan-container{
     display: flex;
     gap: 30px;
-    padding-left:220px;
+    /* padding-left:220px; */
+    /* justify-items: center;
+    align-items: center; */
+    margin:0 220px;
 }
 .plan{
 padding: 30px;
@@ -250,6 +253,7 @@ footer{
     height: 100px;
     background: #eed95fad;
 }
+
 /* Bonus Section */
 .body {
     min-height: 100vh;
