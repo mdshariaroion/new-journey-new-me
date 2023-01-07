@@ -6,11 +6,13 @@ font-style: normal;
 }
 .edit{
     padding: 0%;
+    width: 100%;
 }
 
 .header{
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
+    width: 100%;
    
 }
 /* gradient-section */
